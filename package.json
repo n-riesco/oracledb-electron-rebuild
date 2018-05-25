@@ -1,0 +1,29 @@
+{
+  "name": "oracledb-electron-rebuild",
+  "version": "1.0.0",
+  "description": "Example of electron app using oracledb and electron-rebuild",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n-riesco/oracledb-electron-rebuild.git"
+  },
+  "scripts": {
+    "start": "electron index.js",
+    "postinstall": "electron-rebuild",
+    "test": "npm start"
+  },
+  "author": {
+    "author": "Nicolas Riesco",
+    "email": "enquiries@nicolasriesco.net",
+    "url": "http://www.nicolasriesco.net/"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "oracledb": "^2.2.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "electron-rebuild": "^1.7.3",
+    "nan": "^2.8"
+  }
+}
